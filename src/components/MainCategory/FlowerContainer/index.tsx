@@ -4,7 +4,7 @@ import FlowerCard from "./FlowerCard";
 
 const FlowerContainer = () => {
   return (
-    <div className=" mt-2">
+    <div className="w-full mt-2">
       <FlowerTitle />
       <FlowerCard />
     </div>

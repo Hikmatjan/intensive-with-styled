@@ -3,8 +3,8 @@ import { Select } from "antd";
 
 const FlowerTitle = () => {
   return (
-    <div className=" w-full flex justify-between items-center">
-      <div className="flex justify-between items-center gap-8  ">
+    <div className="w-full flex justify-between items-center">
+      <div className="flex justify-between items-center gap-8 ">
         <h3 className=" font-normal cursor-pointer hover:text-[#46A358] border-b border-[#46A358]">
           All Plants
         </h3>
@@ -15,7 +15,7 @@ const FlowerTitle = () => {
           Sale
         </h3>
       </div>
-      <div className="flex items-center justify-center gap-2 max-lg:hidden">
+      <div className="flex  items-center  gap-2 max-lg:hidden">
         <p>Sortby:</p>
         <Select
           placeholder="Default Sorting"
